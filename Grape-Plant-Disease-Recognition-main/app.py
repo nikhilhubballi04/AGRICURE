@@ -16,6 +16,8 @@ st.set_page_config(page_title="AgriCure", layout="centered", page_icon="🍇")
 # --------------------------------------------------
 def safe_rerun():
     try:
+
+        
         st.experimental_rerun()
     except Exception:
         try:
